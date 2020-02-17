@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-quarkus
+  namespace: argocd
+data:
+  user: andi
